@@ -1,0 +1,44 @@
+#Productos h2, h3{
+    text-align: center;
+    margin: 3%
+}
+#Productos .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Productos article{
+    margin: 15px;
+}
+
+#Productos img{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 5%;
+}
+body{
+    background-color:aquamarine;
+    font-family: arial;
+} 
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 15px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
